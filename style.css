@@ -1,3 +1,31 @@
-/*body {
-  background-color: #24292e
-}*/
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #24292e;
+}
+
+header.site-header {
+  background-color: #1a1e21;
+}
+
+nav.navbar {
+  background-color: #121517;
+}
+
+.sidebar {
+  background-color: #121212;
+}
+
+/* Text styling */
+.masthead {
+  font-family: 'Bungee', cursive;
+  color: #ffffff;
+}
+
+.subtext {
+  font-family: 'Bungee', cursive;
+  color: #9f9f9f;
+}
+
+.sidebar h3 {
+  font-family: 'Bungee', cursive;
+}
