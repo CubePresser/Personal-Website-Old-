@@ -1,6 +1,6 @@
 /* Background */
 body {
-  background: linear-gradient(#191c20, #121517 30%);
+  background: linear-gradient(#2d3239, #121517 500px);
   background-color: #121517;
   background-repeat: repeat-x;
   /*Font*/
@@ -16,10 +16,13 @@ body {
 }
 
 .header-text-container {
+  background: linear-gradient(darkgray, gray 60%);
   background-color: gray;
   display: inline-block;
-  width: 60%;
+  width: 80%;
   border-radius: 10px;
+  border-style: groove;
+  border-color: gray;
 }
 
 .header-text-container *{
@@ -29,12 +32,17 @@ body {
 /* Nav bar */
 
 .navbar {
+  background: linear-gradient(gray, #24292e 60%);
   background-color: #24292e;
   text-align: center;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
   font-family: 'Bungee', cursive;
   border-radius: 10px;
+  border-style: ridge;
+  border-color: #24292e;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 /* Style for list of navbar items */
@@ -45,16 +53,18 @@ body {
   justify-content: space-around;
   list-style-type: none;
   width: 100%;
+  margin: 0px;
+
 }
 
 .nav-items li {
   /* background-color: black; */
   flex: 0 1 auto;
-    /* text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;   */
+    text-shadow:
+    -1px -1px 0 #24292e,
+    1px -1px 0 #24292e,
+    -1px 1px 0 #24292e,
+    1px 1px 0 #24292e;
 }
 
 .nav-items a {
@@ -83,6 +93,7 @@ body {
 /* MAIN CONTENT */
 
 .site-content {
+  background: linear-gradient(gray, #24292e 100px);
   background-color: #24292e;
   margin-left: 20%;
   margin-right: 20%;
@@ -90,6 +101,9 @@ body {
   border-radius: 10px;
   padding-top: 1%;
   padding-bottom: 1%;
+
+  border-style: ridge;
+  border-color: #24292e;
 }
 
 .page-content {
@@ -120,6 +134,11 @@ body {
   font-family: 'Bungee', cursive;
   margin: 0px;
   font-size: medium;
+  text-shadow:
+  -1px -1px 0 #24292e,
+  1px -1px 0 #24292e,
+  -1px 1px 0 #24292e,
+  1px 1px 0 #24292e;
 }
 
 .sidebar-items li a{
@@ -143,7 +162,7 @@ body {
   color: darkolivegreen;
 }
 
-.page-text {
+.page-box {
   flex: 1 auto;
   background-color: gray;
   border-radius: 10px;
@@ -157,7 +176,7 @@ body {
   margin-bottom: 2%;
 }
 
-.page-text * {
+.page-box * {
   padding-left: 1%;
   padding-right: 1%;
 }
