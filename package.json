@@ -1,0 +1,22 @@
+{
+  "name": "personal-website",
+  "version": "0.1.0",
+  "description": "A personal website for me to fill with programming stuff",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonesjonathan/Personal-Website.git"
+  },
+  "author": "Jonathan Jones (jonesjonathan)",
+  "bugs": {
+    "url": "https://github.com/jonesjonathan/Personal-Website/issues"
+  },
+  "homepage": "https://github.com/jonesjonathan/Personal-Website#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0"
+  }
+}
